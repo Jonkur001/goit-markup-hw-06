@@ -872,11 +872,24 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
   
   /*2. Header 768px*/
-  .contacts {
-    font-style: normal;
-    margin: auto;
+  .header {
+    display: flex;
+    align-items: center;
+    height: 56px;
   }
-  
+
+  .nav_list {
+    display: none;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .button_menu {
+    padding-left: 75px;
+  }
+
   .contacts_list {
     display: block;
   }
@@ -886,6 +899,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
     max-width: 768px;
     height: 432px;
     padding: 72px 0;
+    margin: auto;
+    
   }
 
   .first_section_head {
@@ -898,13 +913,12 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   .second_section {
     width: 768px;
     margin: auto;
+    padding: 96px 0;
   }
   
   .second_section_list {
-    height: 356px;
     flex-wrap: wrap;
     flex-direction: row;
-
   }
   
   .second_section_list_item {
@@ -918,27 +932,27 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   .second_section_list_head {
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
   }
   
   .second_section_list_description {
     font-weight: 500;
+    padding-bottom: 72px;
   }
   
   /*5. Third section */
   .third_section {
     margin: auto;
     width: 768px;
-    height: 1224px;
   }
 
   .third_section_list {
-    height: 428px;
     flex-wrap: wrap;
     flex-direction: row;
   }
   
   .third_section_item {
-    flex-basis: calc((100% - 24px) / 1);
+    flex-basis: calc((100% - 26px) / 1);
     margin: auto;
   }
   
@@ -946,7 +960,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   .fourth_section {
     width: 768px;
     margin: auto;
-  }  
+  }
   
   .fourth_section_list_item {
     width: calc((100% - 24px) / 1);
@@ -955,22 +969,51 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   
   /*7 Footer*/
   .footer {
-    padding: 96px 0;
     width: 768px;
     margin: auto;
   }
   
   .footer_content {
+    width: 288px;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 108px;
-  }
-  
-  .footer_text {
-    margin-right: 24px;
   }
 
-  .footer_subscribe {
+  .logo_footer {
+    width: 288px;
+    text-align: center;
+  }
+  
+  .footer_description {
+    width: 288px;
+    text-align: center;
+  }
+
+  .footer_texthead {
     padding-top: 72px;
+    width: 288px;
+    text-align: center;
+  }
+
+  .footer_section_message{
+    margin: auto;
+    width: 208px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .form_subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input_email {
+    width: 288px;
+  }
+
+  .button_subscribe {
+    width: 165px;
+    height: 40px;
+    margin: auto;
   }
 }
