@@ -348,6 +348,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   fill: #f4f4fd;
 }
 
+
+
+
 /*6 Fourth section*/
 .fourth_section {
   padding-top: 120px;
@@ -536,8 +539,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 .foter_section_svg{
   margin-left: 16px;
 }
-/*@media (min-width: 1440px)*/
-@media (min-width: 1440px) {
+
 
 
 
