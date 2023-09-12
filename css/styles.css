@@ -749,12 +749,91 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 
 
+/* Mobile menu*/
+
+.mobali_menu {
+
+}
+
+.nav_list_mobali_menu {
+  padding-bottom: 128px;
+}
+
+.nav_list_item_mobali_menu {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav_list_item_mobali_menu:hover {
+  color: #404bbf;
+}
+
+.nav_list_item_mobali_menu:focus {
+  color: #404bbf;
+}
+
+.nav_list_item_href_mobali_menu {
+  display: block;
+  padding-bottom: 40px;
+  color: #2E2F42;;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav_list_item_href_mobali_menu:hover {
+  color: #404bbf;
+}
+
+.nav_list_item_href_mobali_menu::after {
+  width: 100%;
+  color: #404bbf;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.contacts_mobali_menu {
+  font-style: normal;
+  margin: auto;
+}
+
+.contacts_item_mobali_menu {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding-bottom: 24px;
+}
+
+.contacts_item_href_mobali_menu{
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #2E2F42;
+}
+
+.contacts_item_href_mobali_menu:hover {
+  color: #404bbf;
+}
+
+.contacts_item_mobali_menu:focus {
+  color: #404bbf;
+}
 
 
 
 
 
-@media (min-width: 769px) and (max-width: 1439px) {
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
 
   .container { /*дефолтный клас*/
     width: 768px;
@@ -865,7 +944,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .container { /*дефолтный клас*/
     width: 320px;
