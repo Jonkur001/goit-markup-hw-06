@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 .container { /*дефолтный клас*/
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 /*2. Header*/
@@ -56,6 +55,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 .nav {
   display: flex;
   align-items: center;
+  padding-right: 76px;
 }
 
 .logo {
@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 .logo_text {
@@ -161,7 +160,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 188px 0;
+  /*padding: 188px 0;*/
   max-width: 1440px;
   margin: auto;
 }
@@ -174,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   color: #ffffff;
   max-width: 496px;
   margin: auto;
-  margin-bottom: 48px;
+  /*margin-bottom: 48px;*/
 }
 
 .visually-hidden{
@@ -217,12 +216,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   background-color: #404BBF;
 }
 
-
-
-
 /*4. Second section*/
 .second_section {
-  padding: 120px 0;
+  /*padding: 120px 0;*/
 }
 
 .second_section_list {
@@ -269,7 +265,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 /*5. Third section */
 .third_section {
   background-color: #F4F4FD;
-  padding: 120px 0;
+  /*padding: 120px 0;*/
 }
 
 .third_section_head {
@@ -279,7 +275,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px; 
+  /*margin-bottom: 72px; */
 }
 
 .third_section_list {
@@ -358,8 +354,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 /*6 Fourth section*/
 .fourth_section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;*/
+  /*padding-bottom: 120px;*/
 }
 
 .fourth_section_head {
@@ -369,7 +365,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  /*margin-bottom: 72px;*/
 }
 
 .fourth_section_list {
@@ -454,7 +450,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 }
 
 .footer_text {
-  margin-right: 120px;
+  /*margin-right: 120px;*/
 }
 
 .footer_texthead {
@@ -754,8 +750,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 /* Mobile menu*/
 
 .mobali_menu {
-  padding-left: 16px;
   width: 795px;
+  margin: auto;
 }
 
 .mobali_menu.is-open {
@@ -841,8 +837,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 .hird_section_message_mobali_menu {
   width: 280px;
-padding-bottom: 40px;
-  margin: 0;
+  padding-bottom: 40px;
+  margin: auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -874,15 +870,15 @@ padding-bottom: 40px;
 
 
 
-@media screen and (min-width: 769px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
 
-  .container { /*дефолтный клас*/
-    width: 768px;
+  /*.container { /*дефолтный клас*/
+  /*  width: 768px;
   }
   
   /*2. Header*/
   
-  .contacts {
+  /*.contacts {
     font-style: normal;
     margin: auto;
   }
@@ -892,14 +888,14 @@ padding-bottom: 40px;
   }
   
   /*3. First section*/
-  .first_section {
+  /*.first_section {
     max-width: 768px;
     height: 436px;
     padding: 108px 0;
   }
 
   /*4. Second section*/
-  .second_section {
+  /*.second_section {
     width: 768px;
     margin: auto;
   }
@@ -929,7 +925,7 @@ padding-bottom: 40px;
   }
   
   /*5. Third section */
-  .third_section {
+  /*.third_section {
     margin: auto;
     width: 768px;
     height: 1224px;
@@ -949,7 +945,7 @@ padding-bottom: 40px;
   }
   
   /*6 Fourth section*/
-  .fourth_section {
+  /*.fourth_section {
     width: 768px;
     margin: auto;
   }  
@@ -960,7 +956,7 @@ padding-bottom: 40px;
   }
   
   /*7 Footer*/
-  .footer {
+  /*.footer {
     padding: 96px 0;
     width: 768px;
     margin: auto;
@@ -978,66 +974,68 @@ padding-bottom: 40px;
 
   .footer_subscribe {
     padding-top: 72px;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 768px) {
+  }*/
 
   .container { /*дефолтный клас*/
-    width: 320px;
+    width: 768px;
+    margin: auto;
+    padding: 0 16px;
   }
   
   /*2. Header 768px*/
-  .header {
-    display: flex;
-    align-items: center;
-    height: 56px;
-    width: 768px;
+  .logo {
+    padding-right: 120px;
+  }
+
+  .nav {
+    padding-right: 122px;
   }
 
   .nav_list {
-    display: none;
+    display: flex;
   }
 
   .contacts {
-    display: none;
-  }
-
-  .button_menu {
-    padding-left: 75px;
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
   }
 
   .contacts_list {
     display: block;
   }
+
+  .contacts_item_href {
+    font-weight: 400;
+    font-size: 12px;
+  }
   
   .button_menu {
-    display: block;
-  }
-  /*3. First section*/
-  .first_section {
-    width: 768px;
-    height: 432px;
-    padding: 72px 0;
-    margin: auto;
-    
+    display: none;
   }
 
+  /*3. First section*/
   .first_section_head {
     font-size: 36px;
     font-weight: 700;
-    max-width: 160px;
+    padding-top: 112px;
+    font-weight: 700;
+    font-size: 56px;
+
+  }
+
+  .button_conteinet {
+    padding-top: 36px;
+    padding-bottom: 112px;
+  }
+
+  .first_section_button {
+    margin: auto;
   }
 
   /*4. Second section*/
-  .second_section {
-    width: 768px;
-    margin: auto;
-    padding: 96px 0;
+  .second_section_list {
+    margin: 96px 0 24px 0;
   }
   
   .second_section_list {
@@ -1046,7 +1044,7 @@ padding-bottom: 40px;
   }
   
   .second_section_list_item {
-    width: calc(100% - 24px);
+    width: calc((100% - 24px) / 2);
   }
   
   .second_section_list_icon {
@@ -1061,55 +1059,52 @@ padding-bottom: 40px;
   
   .second_section_list_description {
     font-weight: 500;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   
   /*5. Third section */
-  .third_section {
-    margin: auto;
-    width: 768px;
+  .third_section_head {
+    padding-top: 96px;
   }
 
   .third_section_list {
+    margin: 72px 92px 24px 92px;
     flex-wrap: wrap;
     flex-direction: row;
+
   }
   
   .third_section_item {
-    flex-basis: calc((100% - 26px) / 1);
-    margin: auto;
+    flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 72px;
+    /*margin: 0 auto 72px auto; */
   }
   
   /*6 Fourth section*/
-  .fourth_section {
-    width: 768px;
-    margin: auto;
+  .fourth_section_head {
+    padding-top: 96px;
+  }
+
+  .fourth_section_list {
+    padding: 72px 0 96px 0;
   }
   
   .fourth_section_list_item {
-    width: calc((100% - 24px) / 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
   }
   
-  /*7 Footer*/
-  .footer {
-    width: 768px;
-    margin: auto;
-  }
-  
+  /*7 Footer*/  
   .footer_content {
-    width: 288px;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .logo_footer {
-    width: 288px;
-    text-align: center;
+  .footer_text {
+    width: 100%;
   }
-  
-  .footer_description {
-    width: 288px;
+
+  .logo_footer {
+    width: 100%;
     text-align: center;
   }
 
@@ -1123,16 +1118,168 @@ padding-bottom: 40px;
     margin: auto;
     width: 208px;
     display: flex;
-    gap: px;
   }
 
+  .input_email {
+    width: 100%;
+  }
   .form_subscribe {
     display: flex;
     flex-direction: column;
   }
 
-  .input_email {
+  .button_subscribe {
+    width: 165px;
+    height: 40px;
+    margin: auto;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  .container { /*дефолтный клас*/
+    width: 320px;
+    margin: auto;
+    padding: 0 16px;
+  }
+  
+  /*2. Header 768px*/
+
+  .header_content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .nav {
+    padding-right: 149px;
+  }
+
+  .nav_list {
+    display: none;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .contacts_list {
+    display: block; /**/
+  }
+  
+  .button_menu {
+    display: block;
+  }
+
+  /*3. First section*/
+  .first_section_head {
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 160px;
+    padding-top: 72px;
+  }
+
+  .button_conteinet {
+    padding: 72px 0;
+  }
+
+  .first_section_button {
+    margin: auto;
+  }
+
+  /*4. Second section*/
+  .second_section_list {
+    margin: 96px 0 24px 0;
+  }
+  
+  .second_section_list {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .second_section_list_item {
+    width: 100%;
+  }
+  
+  .second_section_list_icon {
+    display: none;
+  }
+  
+  .second_section_list_head {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .second_section_list_description {
+    font-weight: 500;
+    margin-bottom: 72px;
+  }
+  
+  /*5. Third section */
+  .third_section_head {
+    padding-top: 96px;
+  }
+
+  .third_section_list {
+    margin: 72px 12px 24px 12px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .third_section_item {
+    margin-bottom: 72px;
+  }
+  
+  /*6 Fourth section*/
+  .fourth_section_head {
+    padding-top: 96px;
+  }
+
+  .fourth_section_list {
+    padding: 72px 0 96px 0;
+  }
+  
+  .fourth_section_list_item {
+    width: 100%;
+  }
+  
+  /*7 Footer*/  
+  .footer_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer_text {
+    width: 100%;
+  }
+
+  .logo_footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer_texthead {
+    padding-top: 72px;
     width: 288px;
+    text-align: center;
+  }
+
+  .footer_section_message{
+    margin: auto;
+    width: 208px;
+    display: flex;
+  }
+
+  .input_email {
+    width: 100%;
+  }
+  .form_subscribe {
+    display: flex;
+    flex-direction: column;
   }
 
   .button_subscribe {
