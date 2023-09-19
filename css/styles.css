@@ -1269,6 +1269,10 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   
   /*11.9 Mobile menu*/
   .mobal_menu {
-    display: block;
+    display: none;
+  }
+
+  .mobal_menu {
+    display: none;
   }
 }
