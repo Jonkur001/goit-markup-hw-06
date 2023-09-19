@@ -783,29 +783,22 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 /*9. Mobal Menu*/
 
-.mobal_menu.is-open {
-  display: block;
-}
-
 .conteiner_mobal_menu {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.mobal_menu {
-  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 322px;
+  height: 100dvh;
+  display: none;
+  z-index: 999;
   background-color: #fff;
 }
 
 .nav_list_mobal_menu {
   padding-bottom: 128px;
   padding-top: 72px;
+  padding-left: 16px;
 }
 
 .nav_list_item_mobal_menu {
@@ -851,6 +844,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   
   font-style: normal;
   padding-bottom: 20px;
+  padding-left: 16px;
 }
 
 .contacts_list_mobal_menu {
@@ -1086,7 +1080,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
 
   /*10.9 Mobile menu*/
-  .mobal_menu {
+  .conteiner_mobal_menu {
     display: none;
   }
 }
@@ -1261,18 +1255,18 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
   /*10.8 Мodal Window*/
   .modal_window {
-    display: none;
+    display: block;
     padding-top: 72px;
     padding-bottom: 24px;
     
   }
   
   /*11.9 Mobile menu*/
-  .mobal_menu {
+  .conteiner_mobal_menu {
     display: none;
   }
 
-  .mobal_menu {
-    display: none;
+  .is-open {
+    /*display: block;*/
   }
 }
