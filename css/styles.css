@@ -248,9 +248,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 }
 
 /*4. Second section*/
-.second-section-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.second-section {
+  padding: 120px 0;
 }
 
 .second-section-list {
@@ -293,10 +292,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 
 /*5. Third section */
-.third-section-container {
+.third-section{
+  padding: 120px 0;
   background-color: #F4F4FD;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .third-section-title {
@@ -975,11 +973,11 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
     margin: auto;
   }
 
-  /*10.4 Second section*/
-  .second-section-list {
-    margin: 96px 0 24px 0;
+  /*10.4 Second section*/  
+  .second-section {
+    padding: 96px 0 24px 0;
   }
-  
+
   .second-section-list {
     flex-wrap: wrap;
     flex-direction: row;
@@ -1005,8 +1003,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
   
   /*10.5 Third section */
-  .third-section-title {
-    padding-top: 96px;
+  .third-section{
+    padding: 96px 0 52px 0;
+    background-color: #F4F4FD;
   }
 
   .third_section_list {
@@ -1018,7 +1017,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   
   .third-section-item {
     flex-basis: calc((100% - 24px) / 2);
-    margin-bottom: 72px;
+    margin-bottom: 48px;
     /*margin: 0 auto 72px auto; */
   }
   
@@ -1149,11 +1148,11 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
     margin: auto;
   }
 
-  /*11.4 Second section*/
-  .second-section-list {
-    margin: 96px 0 24px 0;
+  /*11.4 Second section*/  
+  .second-section {
+    padding: 96px 0 24px 0;
   }
-  
+
   .second-section-list {
     flex-wrap: wrap;
     flex-direction: row;
@@ -1179,8 +1178,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
   
   /*11.5 Third section */
-  .third-section-title {
-    padding-top: 96px;
+  .third-section{
+    padding: 96px 0 52px 0;
+    background-color: #F4F4FD;
   }
 
   .third_section_list {
@@ -1190,7 +1190,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
   
   .third-section-item {
-    margin-bottom: 72px;
+    margin-bottom: 40px;
   }
   
   /*11.6 Fourth section*/
