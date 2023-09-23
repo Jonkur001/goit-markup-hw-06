@@ -55,9 +55,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 }
 
 .container { /*дефолтный клас*/
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
-  padding: 0 156px;
+  padding: 0 15px;
 }
 
 /*2. Header*/
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 .main-nav {
   display: flex;
   align-items: center;
-  padding-right: 332px;
+  margin-right: 332px;
 }
 
 .logo-link {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .logo_text {
@@ -177,8 +177,11 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 
 
 /*3. First section*/
-.first-section-container {
+.first-section {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
+
+.first-section-container {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
