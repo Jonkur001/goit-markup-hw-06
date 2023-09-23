@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
 }
 
 .button-container {
-  padding-top: 48px;
+  margin-top: 48px;
 }
 
 .first-section-button {
@@ -924,11 +924,11 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   
   /*10.2 Header*/
   .logo-link {
-    padding-right: 120px;
+    margin-right: 120px;
   }
 
   .main-nav {
-    padding-right: 122px;
+    margin-right: 122px;
   }
 
   .nav-menu {
@@ -1010,7 +1010,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
 
   .third_section_list {
-    margin: 72px 92px 0 92px;
+    margin: 40px 92px 0 92px;
     flex-wrap: wrap;
     flex-direction: row;
 
@@ -1110,11 +1110,11 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
 
   .logo-link {
-    padding-right: 0;
+    margin-right: 0;
   }
 
   .main-nav {
-    padding-right: 149px;
+    margin-right: 149px;
   }
 
   .nav-menu {
