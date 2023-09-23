@@ -994,7 +994,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   .second-section-title {
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
   }
   
   .second-section-description {
@@ -1022,8 +1021,8 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   }
   
   /*10.6 Fourth section*/
-  .fourth_section_head {
-    padding-top: 96px;
+  .fourth_section {
+    padding: 96px 0;
   }
 
   .fourth_section_list {
@@ -1196,10 +1195,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, ul {
   /*11.6 Fourth section*/
   .fourth_section {
     padding: 96px 0;
-  }
-
-  .fourth_section_head {
-    padding-top: 96px;
   }
   
   .fourth_section_list_item {
